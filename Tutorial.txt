@@ -2,5 +2,39 @@ Subir projeto
 
 https://www.youtube.com/watch?v=GzRxUO41noY
 
+
+Colocar os arquivos na pasta
+Abrir o terminal Gi Bash Here
+
+Para a 1ª vez configurar o usuário e email
+git config --global user.name "fjpaula2019"
+git config --global user.email "fjpaula2019@gmail.com"
+
+Iniciar o git - git init
+Verificar se os arquivos estão na pasta - git status
+Adicionando os arquivos para envio = git add .
+Colocar o nome do commit - git commit -m "Git Hub com Laravel"
+Redirecionar para  a pasta no git - git remote add origin https://github.com/fjpaula2019/laravel-do-zero.git
+Subir aqruivo - git push origin master  
+Colocar login e senha
+
+
+Atualizar respositório
+
+git init
+git add .
+git commit -m "Novo tutorial"
+git push origin master  
+
+
+
+Obs:
+Resetar repositório
+git pull origin master --allow-unrelated-histories
+
+
+
+
+
 Curso
 https://www.youtube.com/watch?v=1-eH3hNDRxM&list=PLzKPnb4PnS-IPCS-InYcY5ZEydpRmEUic&index=3
